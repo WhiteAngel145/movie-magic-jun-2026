@@ -3,6 +3,7 @@ SoftUni JS Back-End Course Workshop
 
 ## Development Steps
 
+### Setup
 - [x] Initialize Project
 - [x] Add Express Server `npm i express`
 - [x] Config debugging
@@ -13,14 +14,15 @@ SoftUni JS Back-End Course Workshop
 - [x] Add Layout
 - [x] Render About Page
 --- 
-## Architecture
+### Architecture
 
-- [] 
-- [] 
-- [] 
-- [] 
-- [] 
-- [] 
+- [x] Add home controller
+- [] Add movie data layer
+- [] Add movie service
+- [] Render movies on home page
+- [] Show no movies screen
+---
+- [] Add routes
 - [] 
 - [] 
 
