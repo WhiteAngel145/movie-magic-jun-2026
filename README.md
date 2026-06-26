@@ -11,7 +11,10 @@ SoftUni JS Back-End Course Workshop
 - [x] Setup static files
 - [x] Render Home Page
 - [x] Add Layout
-- [] Render About Page
+- [x] Render About Page
+--- 
+## Architecture
+
 - [] 
 - [] 
 - [] 
