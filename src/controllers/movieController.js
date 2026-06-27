@@ -13,6 +13,8 @@ movieController.post('/movies/create', (req, res) => {
 
 	movieService.create(movieData);
 
+	const movie = movieService.create(movieData)
+
 	res.end();
 })
 
