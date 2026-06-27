@@ -28,9 +28,9 @@ SoftUni JS Back-End Course Workshop
 - [x] Ability to parse user data / Read body data
 - [] Create movie
 	- [x] Add action
-	- [] Add service
-	- [] Add model method for creating movie
-- [] 
+	- [x] Add service
+	- [x] Add model method for creating movie
+- [x] Redirect after creation
 
 - [] Add 404 page
 
