@@ -16,6 +16,9 @@ app.set('views', 'src/views');
 //Setup static files /middlewares
 app.use(express.static('src/public'));
 
+//Parse form date from request req
+app.use(express.urlencoded());
+
 // Routers
 app.use(routes);
 
