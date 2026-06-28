@@ -20,8 +20,10 @@ movieController.get('/movies/:movieId/details', (req, res) => {
 	const movieId = req.params.movieId;
 	const movie = movieService.getOne(movieId);
 	
-	res.render('details', {movie});
-	
+	// TODO Prepare view data (temporary solution)
+	const ratingViewData = '&#x2605;'.repeat(Math.trunc(movie.rating));
+
+	res.render('details', { movie, rating: ratingViewData });
 });
 
 movieController.get('/movies/search', (req, res) => {
