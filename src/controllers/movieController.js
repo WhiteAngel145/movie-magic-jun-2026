@@ -19,6 +19,8 @@ movieController.get('/movies/:movieId/details', (req, res) => {
 	const movieId = req.params.movieId;
 	const movie = movieService.getOne(movieId);
 
+	console.log(movie);
+	
 	res.end();
 	
 })

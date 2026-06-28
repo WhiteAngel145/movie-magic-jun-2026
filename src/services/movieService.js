@@ -7,7 +7,7 @@ export default {
 	return Movie.find();
 	},
 	getOne(movieId) {
-		return Movie.find({_id: movieId});
+		return Movie.findOne({_id: movieId});
 	},
 	create(movieData) {
 
