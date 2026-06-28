@@ -21,17 +21,25 @@ SoftUni JS Back-End Course Workshop
 - [x] Add movie service
 - [x] Render movies on home page
 - [x] Show no movies screen
+---
 ### Create Movie data
+
 - [x] Add Movie controller 
 - [x] Show create move page
 - [x] Add routes
+- [x] Add 404 page
 - [x] Ability to parse user data / Read body data
 - [] Create movie
 	- [x] Add action
 	- [x] Add service
 	- [x] Add model method for creating movie
-- [x] Redirect after creation
+- [x] Redirect after creation to Home page
 - [x] Create unique id for every new movie
-
-- [] Add 404 page
-
+---
+### Details
+### Search
+### Bonus
+- [] File Persistence
+- [] 
+- [] 
+- [] 

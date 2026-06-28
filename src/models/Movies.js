@@ -48,6 +48,10 @@ export default class Movie {
 		return movies.slice()
 	}
 
+  get id() {
+    return this._id;
+  }
+
   save() {
     movies.push(this);
 
