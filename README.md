@@ -37,6 +37,7 @@ SoftUni JS Back-End Course Workshop
 - [x] Create unique id for every new movie
 ---
 ### Details
+
 - [x] Add navigation button for details page
 - [x] Add route with param for details page
 - [x] Get one move from service
@@ -44,7 +45,13 @@ SoftUni JS Back-End Course Workshop
 - [x] Render details page with dynamic data
 ---
 ### Search
+- [x] Show static search page
+- [] Render all movies
+- [] Modify search form
+- [] Filter movies
+- [] Remember search words
+
+
 ### Bonus
 - [] File Persistence
 - [] Rating
-- [] 
