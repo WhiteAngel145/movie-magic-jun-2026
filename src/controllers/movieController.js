@@ -14,15 +14,14 @@ movieController.post('/movies/create', (req, res) => {
 	const movie = movieService.create(movieData);
 
 	res.redirect('/');
-})
+});
+
 movieController.get('/movies/:movieId/details', (req, res) => {
 	const movieId = req.params.movieId;
 	const movie = movieService.getOne(movieId);
-
-	console.log(movie);
 	
-	res.end();
+	res.render('details', {movie});
 	
-})
+});
 
 export default movieController;
