@@ -46,14 +46,15 @@ export default class Movie {
 
 	static find(filter = {}) {
     let result = movies.slice()
+    console.log(result);
     
     if (filter._id) {
       result = result.filter(movie => movie._id === filter._id);
     }
 
-    // if (filter.title) {
-    //   //TODO
-    // }
+    if (filter.title) {
+      result = result.filter(movie => movie.title.toLowerCase().includes(filter.title.toLowerCase()));
+    }
 
     if (filter.genre) {
       result = result.filter(movie => movie.genre.toLowerCase() === filter.genre.toLowerCase());
