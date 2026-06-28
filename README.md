@@ -29,7 +29,7 @@ SoftUni JS Back-End Course Workshop
 - [x] Add routes
 - [x] Add 404 page
 - [x] Ability to parse user data / Read body data
-- [] Create movie
+- [x] Create movie
 	- [x] Add action
 	- [x] Add service
 	- [x] Add model method for creating movie
@@ -37,9 +37,14 @@ SoftUni JS Back-End Course Workshop
 - [x] Create unique id for every new movie
 ---
 ### Details
+- [x] Add navigation button for details page
+- [] Add route with param for details page
+- [] Get one move from service
+- [] Find movie by id from model
+- [] Render details page with dynamic data
+---
 ### Search
 ### Bonus
 - [] File Persistence
-- [] 
 - [] 
 - [] 
