@@ -49,6 +49,9 @@ SoftUni JS Back-End Course Workshop
 - [x] Render all movies
 - [x] Modify search form
 - [] Filter movies
+	- [x] By year
+	- [x] By genre
+	- [] By title
 - [] Remember search words
 
 

@@ -44,11 +44,23 @@ export default class Movie {
     this._id = uuid();
   }
 
-	static find(filter) {
+	static find(filter = {}) {
     let result = movies.slice()
-
-    if (filter) {
+    
+    if (filter._id) {
       result = result.filter(movie => movie._id === filter._id);
+    }
+
+    // if (filter.title) {
+    //   //TODO
+    // }
+
+    if (filter.genre) {
+      result = result.filter(movie => movie.genre.toLowerCase() === filter.genre.toLowerCase());
+    }
+
+    if (filter.year) {
+      result = result.filter(movie => movie.year === filter.year);
     }
 
 		return result;
